@@ -62,13 +62,13 @@ console.log(monster);
 ### Render Challenge
 ```
 function Flower(color, petals, smellsPretty) {
-    this.color = color;
-    this.petals = petals;
-    this.smellsPretty = smellsPretty;
-    this.render = function() {
-+     $('body').append("<p>My pretty flower is " + this.color +
-+        " and has " + this.petals + " pristine petals.");
-+     };
+  this.color = color;
+  this.petals = petals;
+  this.smellsPretty = smellsPretty;
+  this.render = function() {
+    $('body').append("<p>My pretty flower is " + this.color +
+      " and has " + this.petals + " pristine petals.");
+  };
 }
 
 ```
